@@ -68,3 +68,10 @@ Useful scripts:
 - @src/tests - tests for the main app
 - @src/ui - Qt widget definition files (XML)
 - @qxt - code to handle global system-wide shortcuts
+
+## Repository and delivery boundaries
+
+- Reference fork: `SimonWXH/CopyQ` is a personal reference and experiment clone of the C++/Qt CopyQ manager.
+- Upstream isolation: Upstream `hluk/CopyQ` is never a PR or issue target. All work stays inside the captain's own fork.
+- Delivery: Delivery posture is `direct-PR`. Automated `no-mistakes` is not initialized here because upstream origin differs from fork parent.
+
